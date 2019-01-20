@@ -1,6 +1,6 @@
-package com.derimagia.forgeslack.handler;
+package com.aergonat.forgeslack.handler;
 
-import com.derimagia.forgeslack.ForgeSlack;
+import com.aergonat.forgeslack.ForgeSlack;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.scoreboard.ScorePlayerTeam;
 import net.minecraftforge.common.util.FakePlayer;

@@ -1,4 +1,4 @@
-package com.derimagia.forgeslack.slack;
+package com.aergonat.forgeslack.slack;
 
 import allbegray.slack.SlackClientFactory;
 import allbegray.slack.rtm.Event;
@@ -8,8 +8,8 @@ import allbegray.slack.type.Channel;
 import allbegray.slack.type.User;
 import allbegray.slack.webapi.SlackWebApiClient;
 import allbegray.slack.webapi.method.chats.ChatPostMessageMethod;
-import com.derimagia.forgeslack.ForgeSlack;
-import com.derimagia.forgeslack.handler.SlackMessageHandler;
+import com.aergonat.forgeslack.ForgeSlack;
+import com.aergonat.forgeslack.handler.SlackMessageHandler;
 import net.minecraft.entity.player.EntityPlayer;
 
 import java.text.MessageFormat;
@@ -111,7 +111,7 @@ public class SlackRelay {
         ChatPostMessageMethod message = new ChatPostMessageMethod(channel, txt);
         message.setUsername(player.getDisplayName().getUnformattedText());
         String uuid = player.getCachedUniqueIdString().replaceAll("-", "");
-        message.setIcon_url(MessageFormat.format("https://use.gameapis.net/mc/images/avatar/{0}", uuid));
+        message.setIcon_url(MessageFormat.format("https://crafatar.com/avatars/{0}", uuid));
         sendMessage(message);
     }
 

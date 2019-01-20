@@ -1,7 +1,7 @@
-package com.derimagia.forgeslack;
+package com.aergonat.forgeslack;
 
-import com.derimagia.forgeslack.handler.ForgeEventHandler;
-import com.derimagia.forgeslack.slack.SlackRelay;
+import com.aergonat.forgeslack.handler.ForgeEventHandler;
+import com.aergonat.forgeslack.slack.SlackRelay;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;

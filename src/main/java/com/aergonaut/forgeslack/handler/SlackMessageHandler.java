@@ -1,9 +1,9 @@
-package com.derimagia.forgeslack.handler;
+package com.aergonat.forgeslack.handler;
 
 import allbegray.slack.rtm.EventListener;
 import allbegray.slack.type.User;
-import com.derimagia.forgeslack.ForgeSlack;
-import com.derimagia.forgeslack.slack.SlackRelay;
+import com.aergonat.forgeslack.ForgeSlack;
+import com.aergonat.forgeslack.slack.SlackRelay;
 import com.fasterxml.jackson.databind.JsonNode;
 import net.minecraft.server.MinecraftServer;
 import net.minecraftforge.common.ForgeHooks;
